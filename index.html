@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Presentación Personal - ADRIANA</title>
+    <title>Presentación Personal - Adriana</title>
 
     <style>
         body{
-            font-family: 'Poppings', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
         }
@@ -47,6 +47,22 @@
             line-height: 2;
         }
 
+        button{
+            background-color: #cf3293;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover{
+            opacity: 0.9;
+        }
+
         .pie{
             text-align: center;
             background-color: #7b2cbf;
@@ -72,7 +88,7 @@
 
         <p>
             Soy estudiante de Derecho de la Universidad Científica del Sur.
-            Me interesa especialmente el Derecho Registral. Me encuentro realizando mis practicas  en la Superintendencia Nacional de Registros Públicos.
+            Me interesa especialmente el Derecho Registral. Actualmente me encuentro realizando mis prácticas en la Superintendencia Nacional de los Registros Públicos (SUNARP).
         </p>
 
         <h2>Información académica</h2>
@@ -88,7 +104,7 @@
         <ul>
             <li>Derecho Registral</li>
             <li>Derecho Notarial</li>
-            <li>Aprender sobre nuevas áreas del Derecho.</li>
+            <li>Aprender sobre nuevas áreas del Derecho</li>
             <li>Aprendizaje de idiomas</li>
             <li>Investigación jurídica</li>
         </ul>
@@ -101,14 +117,21 @@
             problemas legales mediante una actuación ética y responsable.
         </p>
 
+        <button onclick="mostrarInfo()">
+            Conocer más sobre mí
+        </button>
+
     </div>
 
     <div class="pie">
-        Contacto: 959859687 /  100113172@cientifica.edu.pe 
-   
-
-
+        Contacto: 100113172@cientifica.edu.pe
     </div>
+
+    <script>
+        function mostrarInfo() {
+            alert("Hola, soy Adriana Mendoza Giron. Estudio Derecho en la Universidad Científica del Sur, curso el noveno ciclo y actualmente realizo mis prácticas en SUNARP. Mi principal interés es el Derecho Registral.");
+        }
+    </script>
 
 </body>
 </html>
